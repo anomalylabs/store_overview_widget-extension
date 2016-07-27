@@ -1,0 +1,55 @@
+
+<div class="jumbotron">
+
+    <div class="row">
+
+        <div class="col-sm-12">
+            <span class="text-muted">Revenue</span>
+            <h1 class="display-3">
+                <span class="text-info">&dollar;{{ widget.data.revenue|number_format(2) }}</span>
+            </h1>
+        </div>
+
+        <div class="col-sm-12">
+            <span class="text-muted">Orders</span>
+            <h1 class="display-3">
+                <span class="text-success">{{ widget.data.orders }}</span>
+            </h1>
+        </div>
+
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-sm-8 col-md-4" style="text-align: center;">
+        <small class="text-muted">Taxes Collected</small>
+        <h2><strong>&dollar;{{ widget.data.tax|number_format(2) }}</strong></h2>
+    </div>
+
+    <div class="col-sm-8 col-md-4" style="text-align: center;">
+        <small class="text-muted">Shipping Charges</small>
+        <h2><strong>&dollar;{{ widget.data.shipping|number_format(2) }}</strong></h2>
+    </div>
+
+    <div class="col-sm-8 col-md-4" style="text-align: center;">
+        <small class="text-muted">Avg. Unit Price</small>
+        <h2><strong>&dollar;{{ widget.data.unit_price|number_format(2) }}</strong></h2>
+    </div>
+
+    <div class="col-sm-8 col-md-4" style="text-align: center;">
+        <small class="text-muted">Avg. Order Total</small>
+        <h2><strong>&dollar;{{ widget.data.order_total|number_format(2) }}</strong></h2>
+    </div>
+
+    <div class="col-sm-8 col-md-4" style="text-align: center;">
+        <small class="text-muted">Products Sold</small>
+        <h2><strong>{{ widget.data.products }}</strong></h2>
+    </div>
+
+    <div class="col-sm-8 col-md-4" style="text-align: center;">
+        <small class="text-muted">New Customers</small>
+        <h2><strong>{{ widget.data.customers }}</strong></h2>
+    </div>
+
+</div>
