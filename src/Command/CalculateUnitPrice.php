@@ -1,7 +1,7 @@
 <?php namespace Anomaly\StoreOverviewWidgetExtension\Command;
 
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
-use Illuminate\Contracts\Bus\SelfHandling;
+
 
 /**
  * Class CalculateUnitPrice
@@ -11,7 +11,7 @@ use Illuminate\Contracts\Bus\SelfHandling;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\StoreOverviewWidgetExtension\Command
  */
-class CalculateUnitPrice implements SelfHandling
+class CalculateUnitPrice
 {
 
     /**

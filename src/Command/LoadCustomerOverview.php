@@ -2,8 +2,7 @@
 
 use Anomaly\CustomersModule\Customer\Contract\CustomerRepositoryInterface;
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
-use Anomaly\OrdersModule\Order\Contract\OrderRepositoryInterface;
-use Illuminate\Contracts\Bus\SelfHandling;
+
 
 /**
  * Class LoadCustomerOverview
@@ -13,7 +12,7 @@ use Illuminate\Contracts\Bus\SelfHandling;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\StoreOverviewWidgetExtension\Command
  */
-class LoadCustomerOverview implements SelfHandling
+class LoadCustomerOverview
 {
 
     /**

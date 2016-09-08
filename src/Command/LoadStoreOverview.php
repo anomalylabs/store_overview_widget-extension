@@ -1,7 +1,6 @@
 <?php namespace Anomaly\StoreOverviewWidgetExtension\Command;
 
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
-use Illuminate\Contracts\Bus\SelfHandling;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 
 /**
@@ -12,7 +11,7 @@ use Illuminate\Foundation\Bus\DispatchesJobs;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\StoreOverviewWidgetExtension\Command
  */
-class LoadStoreOverview implements SelfHandling
+class LoadStoreOverview
 {
 
     use DispatchesJobs;

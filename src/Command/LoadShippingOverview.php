@@ -2,7 +2,7 @@
 
 use Anomaly\DashboardModule\Widget\Contract\WidgetInterface;
 use Anomaly\OrdersModule\Order\Contract\OrderRepositoryInterface;
-use Illuminate\Contracts\Bus\SelfHandling;
+
 
 /**
  * Class LoadShippingOverview
@@ -12,7 +12,7 @@ use Illuminate\Contracts\Bus\SelfHandling;
  * @author        Ryan Thompson <ryan@pyrocms.com>
  * @package       Anomaly\StoreOverviewWidgetExtension\Command
  */
-class LoadShippingOverview implements SelfHandling
+class LoadShippingOverview
 {
 
     /**
